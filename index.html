@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Stunning Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">YN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="vh-100 d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="display-1 fw-bold mb-3" data-aos="fade-up">Your Name</h1>
+            <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200">Web Developer | Designer | Creative Thinker</p>
+            <a href="#projects" class="btn btn-lg btn-primary" data-aos="fade-up" data-aos-delay="400">View Projects</a>
+        </div>
+        <div id="particles-js"></div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
+                    <img src="https://via.placeholder.com/400" alt="Your Name" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <p class="lead">Here you can write a brief introduction about yourself, your journey in web development, and what drives your passion for creating amazing digital experiences.</p>
+                    <p>Don't forget to highlight your unique skills and what sets you apart in the industry!</p>
+                    <a href="#" class="btn btn-outline-primary">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">My Skills</h2>
+            <div class="row">
+                <!-- Programming Languages -->
+                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="100">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-laptop-code fa-3x mb-3 text-primary"></i>
+                            <h3 class="card-title">Programming Languages</h3>
+                            <p class="card-text">
+                                JavaScript, Java, Python, HTML, CSS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks / Technologies -->
+                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="200">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-layer-group fa-3x mb-3 text-success"></i>
+                            <h3 class="card-title">Frameworks/Technologies</h3>
+                            <p class="card-text">
+                                React, Node.js, MongoDB, Bootstrap, PHP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Developer Tools -->
+                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="300">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-tools fa-3x mb-3 text-info"></i>
+                            <h3 class="card-title">Developer Tools</h3>
+                            <p class="card-text">
+                                Git, Docker, GitHub, Command Line, AWS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">My Projects</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card project-card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Description of your first project. Highlight the technologies used and your role.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card project-card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description of your second project. What problems did you solve?</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <div class="social-links mt-3">
+                <a href="#" class="text-white me-3"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
