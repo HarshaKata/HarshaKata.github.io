@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     particlesJS("particles-js", {
         particles: {
             number: { value: 80, density: { enable: true, value_area: 800 } },
-            color: { value: "#ffffff" },
+            color: { value: "#000000" },
             shape: {
                 type: "circle",
                 stroke: { width: 0, color: "#000000" },
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
             line_linked: {
                 enable: true,
                 distance: 150,
-                color: "#ffffff",
+                color: "#000000",
                 opacity: 0.4,
                 width: 1
             },

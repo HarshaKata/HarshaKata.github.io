@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #6c63ff;
+    --primary-color: #161525;
     --secondary-color: #4d4d4d;
     --accent-color: #ff6b6b;
     --background-color: #f9f9f9;
@@ -13,16 +13,16 @@ body {
 }
 /* Default link color */
 .navbar .nav-link {
-    color: var(--secondary-color) !important;
+    color: var(--text-color) !important;
 }
 
 /* Make the links darker on the home page */
 .navbar .nav-link.active {
-    color: #333 !important; /* Darker color */
+    color: var(--primary-color) !important; /* Darker color */
 }
 
 .navbar .nav-link:hover {
-    color: var(--primary-color) !important; /* Highlight color on hover */
+    color: var(--secondary-color) !important; /* Highlight color on hover */
 }
 
 .navbar {
@@ -39,7 +39,7 @@ body {
 .navbar-brand {
     font-weight: bold;
     font-size: 2rem;
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .nav-link {
@@ -52,8 +52,11 @@ body {
     color: var(--primary-color) !important;
 }
 
+.display-1{
+    color: var(--text-color);
+}
 #home {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: rgb(255, 255, 255);
     color: #fff;
     position: relative;
     overflow: hidden;
@@ -73,6 +76,15 @@ body {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
+.btn:hover{
+    border: 1px solid black;
+}
+
+.btn-primary:active{
+    background-color:black !important;
+    border-color: 1px solid black;
+}
+
 .btn-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -80,8 +92,8 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: darken(var(--primary-color), 10%);
-    border-color: darken(var(--primary-color), 10%);
+    background-color: darken(var(--primary-color), 0%);
+    color: black;
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
@@ -128,6 +140,13 @@ body {
 .social-links a:hover {
     color: var(--accent-color) !important;
     transform: translateY(-3px);
+}
+.img-fluid{
+    width: 85%;
+}
+
+.card-text{
+    font-size: 12px;
 }
 
 @media (max-width: 768px) {
